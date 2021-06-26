@@ -11,5 +11,6 @@ urlpatterns = [
     path('first_app/blogs/<int:num>', views.show),
     path('first_app/blogs/<int:num>/edit', views.edit),
     path('first_app/blogs/<int:num>/delete', views.destroy),
+    path('first_app/blogs/bonus', views.bonus),
    
 ]

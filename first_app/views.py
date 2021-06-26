@@ -16,3 +16,6 @@ def edit(request, num):
     return HttpResponse(f"placeholder para editar el blog {num}")
 def destroy(request, num):
     return redirect("/")
+def bonus(request):
+    prueba= JsonResponse({'Titulo':'Las manzanas son rojas'})
+    return HttpResponse(prueba)#prueba 1 
